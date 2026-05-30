@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #212529;
+}
+
+.contenedor{
+	background: #212529;
+	width: 80%;
+	margin: 0 auto;
+}
+
+main .galeria .foto{
+	width: 30%;
+	height: 200px;
+	background: white;
+	margin: 15px;
+}
+
+/*padre*/
+
+main .galeria{
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+}
+
+/*aqui acomodamos la foto*/
+
+main .galeria .foto img{
+	width: 100%;
+	height: 100%;
+	filter: grayscale(80%);
+}
+
+main .galeria .foto img:hover{
+	filter: grayscale(0);
+	border: 1px solid white;
+}
+
+header{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	font-size: 2em;
+	border-bottom: 3px solid white;
+}
+
+footer{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	padding: 15px;
+}
+
+.boton a{
+	color: #8c8c8c;
+	text-decoration: none;
+	border: 1px solid #8c8c8c;
+	padding: 10px  50px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.boton a:hover{
+	color: white;
+	border: 1px solid white;
+	transition: 0.5s;
+}
+
+footer .boton{
+	text-align: center;
+	margin: 50px 0;
+}

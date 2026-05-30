@@ -1,0 +1,64 @@
+body{ 
+	background: url( "../img/negro.png");
+	font-family: verdana;
+} 
+
+header,main,footer{
+	background: white;
+	width: 70%;
+	margin: 10px auto;
+	padding: 15px;
+	border-radius: 20px;
+	/*centrar texto en header y footer*/
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+/*texto de caja main justificado y con mayor interlineado*/
+
+main p{
+	text-align: justify;
+	line-height: 32px;
+}
+
+main:hover{
+	background: black;
+	color: violet;
+}
+
+footer:hover{
+	background: red;
+	color: white;
+}
+
+header:hover{
+	background: green;
+	color: white;
+}
+
+.boton a{
+	color: #8c8c8c;
+	text-decoration: none;
+	border: 1px solid #8c8c8c;
+	padding: 10px  50px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.boton a:hover{
+	color: white;
+	border: 1px solid white;
+	transition: 0.5s;
+}
+
+footer .boton{
+	text-align: center;
+	margin: 50px 0;
+}
